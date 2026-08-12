@@ -1,0 +1,26 @@
+# Tests are intentionally kept out of the public repository.
+tests/
+.pytest_cache/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Generated inference artifacts
+outputs/
+results/
+results_*/
+**/results/
+**/results_*/
+SAM3_masks/
+SAM3_bbox_fallback_masks/
+sam3_mask_generation_status.csv
+*.log
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
